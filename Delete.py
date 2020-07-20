@@ -8,7 +8,7 @@ conn.autocommit(True)
 cursor = conn.cursor()
 
 # Deleting data into table
-cursor.execute("DELETE FROM table.users WHERE name = 'john'")
+cursor.execute("DELETE FROM SCHEMA_NAME.users WHERE name = 'john'")
 
 cursor.close()
 conn.close()
