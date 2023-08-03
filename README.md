@@ -4,6 +4,7 @@ A quick start using PyMySQL
 ### Inside Pycharm terminal:
 ``` bash
 $ pip install pymysql
+$ pip install cryptography
 ```
 
 -------------------------------------
